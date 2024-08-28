@@ -1,0 +1,64 @@
+header{
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../fuentes/images.jpg");
+}
+#introduccion{
+    margin: 20px;
+}
+#parr{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: sandybrown;
+
+}
+#contenido{
+    background-color: palegoldenrod;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.contenido-libro{
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 50px;
+    border-radius: 15px;
+    border: 10px groove salmon;
+    text-align: center;
+}
+
+.contenido-libro img{
+    width: 220px;
+    height: 270px;
+}
+
+.contenido-libro p{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(48, 40, 40);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 100px;
+}
+
+button:hover{
+    transform: scale(1.12);
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: sandybrown;
+    padding: 15px;
+    margin: 20px;
+}
